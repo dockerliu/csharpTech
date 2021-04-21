@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{3E9CC43F-8C8D-422D-9055-7AC329C34559}"
 EndProject
@@ -40,6 +40,52 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication17", "ConsoleApplication17\ConsoleApplication17.csproj", "{279A791F-F277-469B-AFCD-AF032B855A2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication18", "ConsoleApplication18\ConsoleApplication18.csproj", "{60FCC972-E32D-4ABB-9372-8E9F79547B55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "附加资料", "附加资料", "{68AA6BDE-6BD9-4AFE-95BD-ABD09986686C}"
+	ProjectSection(SolutionItems) = preProject
+		..\笔记.pptx = ..\笔记.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "重点截图", "重点截图", "{584AFBD8-2461-48CA-897E-6617310523B1}"
+	ProjectSection(SolutionItems) = preProject
+		..\截图资料\11-格式化输出console.png = ..\截图资料\11-格式化输出console.png
+		..\截图资料\12-三种注释的说明.png = ..\截图资料\12-三种注释的说明.png
+		..\截图资料\13-预定义数据类型.png = ..\截图资料\13-预定义数据类型.png
+		..\截图资料\13-预定义的简单类型和.NET框架类型对应.png = ..\截图资料\13-预定义的简单类型和.NET框架类型对应.png
+		..\截图资料\14-用户自定义类型.png = ..\截图资料\14-用户自定义类型.png
+		..\截图资料\15-内存堆.png = ..\截图资料\15-内存堆.png
+		..\截图资料\15-栈的理解.png = ..\截图资料\15-栈的理解.png
+		..\截图资料\16-堆里面的东西呗垃圾回收示意图.png = ..\截图资料\16-堆里面的东西呗垃圾回收示意图.png
+		..\截图资料\16-非成员数据的理解.png = ..\截图资料\16-非成员数据的理解.png
+		..\截图资料\17-预定义和自定义类型已经值类型和应用类型的对应关系.png = ..\截图资料\17-预定义和自定义类型已经值类型和应用类型的对应关系.png
+		..\截图资料\18-变量在栈中的位置.png = ..\截图资料\18-变量在栈中的位置.png
+		..\截图资料\18-变量的初始化.png = ..\截图资料\18-变量的初始化.png
+		..\截图资料\18-变量的四种分类.png = ..\截图资料\18-变量的四种分类.png
+		..\截图资料\18-变量的声明和初始化.png = ..\截图资料\18-变量的声明和初始化.png
+		..\截图资料\19-变量的自动初始化情况.png = ..\截图资料\19-变量的自动初始化情况.png
+		..\截图资料\20-多重变量的声明.png = ..\截图资料\20-多重变量的声明.png
+		..\截图资料\26-实例在内存中的存储方式.png = ..\截图资料\26-实例在内存中的存储方式.png
+		..\截图资料\27-访问修饰符.png = ..\截图资料\27-访问修饰符.png
+		..\截图资料\30-方法的定义.png = ..\截图资料\30-方法的定义.png
+		..\截图资料\32-方法内部的变量和类的字段变量的区别.png = ..\截图资料\32-方法内部的变量和类的字段变量的区别.png
+		..\截图资料\33-var关键字的使用.png = ..\截图资料\33-var关键字的使用.png
+		..\截图资料\35-常量的定义.png = ..\截图资料\35-常量的定义.png
+		..\截图资料\35-常量的特征.png = ..\截图资料\35-常量的特征.png
+		..\截图资料\36-控制流语句.png = ..\截图资料\36-控制流语句.png
+		..\截图资料\41-引用参数ref.png = ..\截图资料\41-引用参数ref.png
+		..\截图资料\42-输出参数在方法中调用的示意图.png = ..\截图资料\42-输出参数在方法中调用的示意图.png
+		..\截图资料\45-参数的总结 四类.png = ..\截图资料\45-参数的总结 四类.png
+		..\截图资料\5-1-标识符的命名规则.png = ..\截图资料\5-1-标识符的命名规则.png
+		..\截图资料\6-1-命名规则 Pascal和Camel.png = ..\截图资料\6-1-命名规则 Pascal和Camel.png
+		..\截图资料\7-1-关键字.png = ..\截图资料\7-1-关键字.png
+		..\截图资料\7-2-上下文关键字.png = ..\截图资料\7-2-上下文关键字.png
+		..\截图资料\8-1-Main中的参数传递.png = ..\截图资料\8-1-Main中的参数传递.png
+		..\截图资料\9-1-关于块的一些理解.png = ..\截图资料\9-1-关于块的一些理解.png
+		..\截图资料\CLR概述.png = ..\截图资料\CLR概述.png
+		..\截图资料\值参数.png = ..\截图资料\值参数.png
+		..\截图资料\编译期和运行期过程.png = ..\截图资料\编译期和运行期过程.png
+		..\截图资料\运行时编译成本机语言.png = ..\截图资料\运行时编译成本机语言.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -126,5 +172,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{584AFBD8-2461-48CA-897E-6617310523B1} = {68AA6BDE-6BD9-4AFE-95BD-ABD09986686C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05320E8C-F76B-469A-A172-37D6E67B412D}
 	EndGlobalSection
 EndGlobal
